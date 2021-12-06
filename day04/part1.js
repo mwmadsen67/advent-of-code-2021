@@ -19,7 +19,6 @@ let bings = inputs.slice(1);
 bings = bings.map( board => ( board.map(row => row.split(' ').map(el => parseInt(el)).filter(el => !Number.isNaN(el)))));
 // console.log(bings)
 function completeRow(board) {
-  let boolean = true;
   for (let i = 0; i < board.length; i++) {
     for (let j = 0; j < board[i].length; j++) {
       if (board[i][j] !== 'x') {
