@@ -57,7 +57,6 @@ for (let i = 0; i < nums.length; i++) {
 
   // match numbers and get seven segment digit
   let numArr = Object.values(numObj);
-  let values = Object.entries(numObj);
   for (let j = 0; j < 4; j++) {
     for (let n = 0; n < 10; n++) {
       if (output[i][j].toString() === numArr[n].toString()) {
