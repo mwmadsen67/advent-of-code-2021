@@ -10,7 +10,6 @@ let sum = 0;
 // console.log(average)
 
 
-
 let ansArr = [];
 let ans;
 
